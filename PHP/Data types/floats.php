@@ -13,9 +13,9 @@
 
     <?php echo 4/0; ?><br />
     <br />
-    Round:     <?php echo round($float, 1);   ?><br />
-    Ceiling:   <?php echo ceil($float);       ?><br />
-    Floor:     <?php echo floor($float);     ?><br />
+    Round:     <?php echo round($float, 1); //it show 3.1 ?><br />
+    Ceiling:   <?php echo ceil($float); //it show 4 valorisé      ?><br />
+    Floor:     <?php echo floor($float); //it show 3 then dévalorisé    ?><br />
     <br />
     
     <?php $integer = 3; ?>
