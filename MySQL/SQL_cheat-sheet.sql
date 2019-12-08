@@ -1,5 +1,4 @@
 # MySQL
-
 ## Getting started
 - http://www.sqlteaching.com/
 - https://www.codecademy.com/learn/learn-sql

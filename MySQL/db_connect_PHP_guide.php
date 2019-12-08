@@ -1,7 +1,7 @@
 <?php
 
-// This guide demonstrates the five fundamental steps
-// of database interaction using PHP.
+//* This guide demonstrates the five fundamental steps
+//* of database interaction using PHP.
 
 // Credentials
 $dbhost = 'localhost';
@@ -9,10 +9,10 @@ $dbuser = 'webuser';
 $dbpass = 'secretpassword';
 $dbname = 'globe_bank';
 
-// 1. Create a database connection
+//* 1. Create a database connection
 $connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 
-// Test if connection succeeded
+//* Test if connection succeeded
 if(mysqli_connect_errno()) {
   $msg = "Database connection failed: ";
   $msg .= mysqli_connect_error();
@@ -20,7 +20,7 @@ if(mysqli_connect_errno()) {
   exit($msg);
 }
 
-// 2. Perform database query
+//* 2. Perform database query
 $query = "SELECT * FROM subjects";
 $result_set = mysqli_query($connection, $query);
 

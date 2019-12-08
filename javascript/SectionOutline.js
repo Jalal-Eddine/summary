@@ -1,10 +1,12 @@
+//? Section outline from zero to mastery course:
+//?----------------------------------------------
 JAVASCRIPT TYPES
 -----------------
 1. Number 
 2. String <!-- 'don\'t do it' -->
 3. Boolean
 4. Undefined
-5. Null
+5. Null //there is nothing inside (completly empty)
 <!-- 6. Symbol (new in ECMAScript 6) -->
 7. Object
 
@@ -12,7 +14,7 @@ JAVASCRIPT COMPARISONS
 -----------------
 
 !==
-===
+=== //todo) if you're comparing two things
 >=
 <=
 >
