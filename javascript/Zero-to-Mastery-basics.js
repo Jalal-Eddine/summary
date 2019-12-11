@@ -41,7 +41,7 @@ array.shift();
 // 2. Sort the array in order. 
 array.sort();
 // 3. Put "Kiwi" at the end of the array.
-array.push("Kiwi");
+array.push('Kiwi');
 // 4. Remove "Apples" from the array.
 array.splice(0, 1);
 // 5. Sort the array in reverse order. 
