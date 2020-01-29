@@ -7,7 +7,7 @@ JAVASCRIPT TYPES
 3. Boolean
 4. Undefined
 5. Null //there is nothing inside (completly empty)
-<!-- 6. Symbol (new in ECMAScript 6) -->
+6. Symbol (new in ECMAScript 6)
 7. Object
 
 JAVASCRIPT COMPARISONS
@@ -23,16 +23,16 @@ JAVASCRIPT COMPARISONS
 JAVASCRIPT VARIABLES
 -----------------
 var
-<!-- let (new in ECMAScript 6)-->  
-<!-- const (new in ECMAScript 6)-->
+let (new in ECMAScript 6) : //*scope even for if statement.
+const (new in ECMAScript 6) //* for constant
 
 JAVASCRIPT CONDITIONALS
 -----------------
 if
 else
 else if
-<!-- ternary operator -->
-<!-- switch -->
+ternary operator
+ switch 
 
 
 JAVASCRIPT LOGICAL OPERATORS
@@ -43,10 +43,10 @@ JAVASCRIPT LOGICAL OPERATORS
 
 JAVASCRIPT FUNCTIONS
 -----------------
-var a = function name() {} <!-- Function expression -->
-function name() {} <!-- Function declaration -->
+- var a = function name() {} <!-- Function expression -->
+- function name() {} <!-- Function declaration -->
 return
-<!-- () => (new in ECMAScript 6) -->
+- () => (new in ECMAScript 6) 
 <!-- argement is what given to functions 
 -alert("argument = value") function mul(a,b):a,b parameters -->
 

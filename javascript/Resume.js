@@ -1,4 +1,4 @@
-//? */ From the exrcices of the course zer to mastery
+//? */ From the exrcices of the course zero to mastery
 //** */ -----------------------------------------------------
 
 var firstNumber = prompt("Please provide the first number"); 

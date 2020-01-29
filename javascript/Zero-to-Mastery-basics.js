@@ -95,7 +95,7 @@ function thisIsAFunction(){};
 var Obj = {
      thisIsAMethod:function(){}
 } 
-//todo) Access theme:
+//todo) Access:
 thisIsAFunction();
 Obj.thisIsAFunction();
 
