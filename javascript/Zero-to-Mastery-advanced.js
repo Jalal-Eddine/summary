@@ -89,4 +89,20 @@ const name = "sally";
 const age = 30;
 const pet = "cat";
 const greeting = `hello ${name} you seem to be ${age-10}, what a lovely ${pet} you have`;
+//? or even better(we can pass default argument):
+function greet(name='', age=30, pet='cat'){
+    return `hello ${name} you seem to be ${age-10}, what a lovely ${pet} you have`;
+}
+//! type: Symbol:
+let sym1 = Symbol();
+let sym2 = Symbol('foo');
+let sym3 = Symbol('foo');
+//* note : sym2 !== sym3 even though they look the same, you make sure there will be never any conflict. most of the times its used for object properties.
+//! Arrow functions:
+//* before: 
+function add(a,b){
+    return a + b;
+}
+//* Now
+const add = (a,b) => a+b;//? for single return
 
