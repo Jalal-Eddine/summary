@@ -97,7 +97,7 @@ function greet(name='', age=30, pet='cat'){
 let sym1 = Symbol();
 let sym2 = Symbol('foo');
 let sym3 = Symbol('foo');
-//* note : sym2 !== sym3 even though they look the same, you make sure there will be never any conflict. most of the times its used for object properties.
+//* note : sym2 !== sym3 even though they look the same, you make sure there will be never any conflict. most of the times it's used for object properties.
 //! Arrow functions:
 //* before: 
 function add(a,b){
@@ -105,4 +105,6 @@ function add(a,b){
 }
 //* Now
 const add = (a,b) => a+b;//? for single return
-
+const add = (a,b) => {//? for multiple return
+    c = a+b;
+    return c;} 
