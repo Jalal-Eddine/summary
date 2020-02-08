@@ -41,9 +41,5 @@ function b(){
 }//?make sure that a function always return something we know (a value)(we know exactly what it does) 
 //*It is really really good practice to be a top performing developer to have this in mind, of creating functions that minimize side effects and have functional purity. What we call 'Determinism', where anything you put into the function it always returns the same thing.
 //What are the two elements of a pure function?
-1. Deterministic --> always produces the same results given the same inputs
+1. Deterministic --> always produces the same results given the same inputs.
 2. No Side Effects -->  It does not depend on any state, or data, change during a program’s execution. It must only depend on its input elements.
-
-//? ####################
-//?  Advanced Arrays
-//? ####################
