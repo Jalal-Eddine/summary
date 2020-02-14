@@ -85,4 +85,22 @@ Promise.all([promise, promise2, promise3, promise4])
       console.log(values);
   })
 ```
-> it took 5 seconds in order to execute, because `Promise.all()` execute according to the longest which in this case 5 seconds.
+> it took 5 seconds in order to execute, because `Promise.all()` execute according to the longest, which in this case 5 seconds.
+## Exemple in real time scenario
+```js
+const urls = [
+    'https://jsonplaceholder.typicode.com/users'
+    'https://jsonplaceholder.typicode.com/posts'
+    'https://jsonplaceholder.typicode.com/albums'
+]
+
+Promise.all(urls.map(url => {
+    return fetch(url).then(resp => resp.json())
+})).then(results => {
+      console.log(results[0])
+      console.log(results[1])
+      console.log(results[2])
+  }).catch(() => console.log('Error!'))
+  //to catch an error if there's one.
+```
+> So at their most basic promises are a bit like event listeners except a promise can only succeed or fail once it cannot succeed or fail twice. And this is extremely useful for things that are asynchronous. Success and failure such as API calls because we're less interested in the exact time something became available and more interested in reacting to the outcome. So we're reacting to something that happens asynchronously.
