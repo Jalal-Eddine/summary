@@ -29,7 +29,7 @@ It allows us to read from a web server after the page has loaded and update a we
     <br><br>
 </figure>
 
-* The new Way: Fetch
+> The new Way: Fetch
 
  ```js
 fetch('/my/url').then(response => {
@@ -47,6 +47,6 @@ myAjaxfunction() {
 Ajax is a combination of tools of using the fetch API, using HTTP, using JSON to communicate with servers.
 <figure>
     <img src="../img/ajaxp.png" width="650" alt="JSON vs XML" align="center">
-    <figcaption><em>Fig. 2: The full picture of the comminucation with AJAX </em></figcaption>
+    <figcaption><em>Fig. 2: The full picture of the comminucation using AJAX </em></figcaption>
     <br><br>
 </figure>
