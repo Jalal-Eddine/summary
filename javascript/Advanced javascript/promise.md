@@ -32,7 +32,9 @@ const promise = new Promise((resolve, reject) => {
         reject('Error, it broke')
     }
 })
+// One line
 promise.then(result => console.log(result));
+// Multiple lines
 promise
   .then(result => result + '!')
   .then(result2 => {
@@ -40,3 +42,47 @@ promise
   })
 ```
 ## Catching an Error
+ ```js
+const promise = new Promise((resolve, reject) => {
+    if (true) {
+        resolve('Stuff Worked');
+    }else {
+        reject('Error, it broke')
+    }
+})
+
+promise
+  .then(result => result + '!')
+  .then(result2 => {
+      throw Error
+      console.log(result2);
+  })
+  .catch(() => console.log('Errooor!'))
+```
+The error need to happen befor `catch`, otherwise it wont run.
+## Promise for Asynchronous programming
+promises are great for asynchronous programming. When you don't want javascript to block the execution of your code like making API calls, grabbing data from a database or maybe optimizing an image you use a promise so that the task happens in the back. when the promise gets resolved or rejected then you'll get that response.
+ ```js
+const promise = new Promise((resolve, reject) => {
+    if (true) {
+        resolve('Stuff Worked');
+    }else {
+        reject('Error, it broke')
+    }
+})
+
+const promise2 = new Promise((resolve, reject) => {
+    setTimeout(resolve, 100, 'HIII')
+})
+const promise2 = new Promise((resolve, reject) => {
+    setTimeout(resolve, 1000, 'POOKIE')
+})
+const promise2 = new Promise((resolve, reject) => {
+    setTimeout(resolve, 5000, 'Is it me you are looking for?')
+})
+Promise.all([promise, promise2, promise3, promise4])
+.then(values => {
+      console.log(values);
+  })
+```
+> it took 5 seconds in order to execute, because `Promise.all()` execute according to the longest which in this case 5 seconds.
