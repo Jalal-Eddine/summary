@@ -7,8 +7,8 @@ JSON is text, written with JavaScript object notation.
     <figcaption><em>Fig. 1: JSON vs XML syntax </em></figcaption>
     <br><br>
 </figure>
-everything need to be a string
-JSON can be understood by any server language.
+everything need to be a string<br>
+JSON can be understood by any server language.<br>
 Javascript come with its own functions
 
 ```js
@@ -19,4 +19,3 @@ var myJSON = JSON.stringify(obj);
 ```
 Originally, the only way to submit some form data to a server was through the <form> tag in HTML. As we have learned, it can do a POST or a GET request. With JSON you can now grab the contents of the <input> in a form and submit those with JSON instead of as a form data. You can now submit to the server whenever you want without it necessarily being a <form>, through AJAX.
  # AJAX:
- 
