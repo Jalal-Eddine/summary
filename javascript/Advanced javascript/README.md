@@ -10,7 +10,7 @@
 * [Advanced functions](AdvancedFunctions.js)
 * [Advanced Arrays](AdvancedArrays.js)
 * [Advanced objects](AdvancedObjects.js)
-* [ES7, ES8, ES10](ES7,ES8,ES10.js)
+* [ES7, ES8, ES10](ES7-ES8-ES10.js)
 * [Advanced loops](AdvancedLoops.js)
 * [Debugging](Debugging.js)
 * [Modules](Moduls.js)
