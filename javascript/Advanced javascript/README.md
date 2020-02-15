@@ -8,7 +8,7 @@
 ## Table of Contents
 * [ES5 & ES6](ES5&ES6.js)
 * [Advanced functions](AdvancedFunctions.js)
-* [Advanced Arrays](AdvancedArrays.js)
+* [Advanced Arrays](AdvancedArrays.md)
 * [Advanced objects](AdvancedObjects.js)
 * [ES7, ES8, ES10](ES7-ES8-ES10.js)
 * [Advanced loops](AdvancedLoops.js)
