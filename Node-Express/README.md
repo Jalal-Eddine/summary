@@ -4,4 +4,4 @@
 -----
 
 ## Table of Contents
-* [Zero to Mastery course ](zero-to-mastery.md)
+* [Zero to Mastery course ](Zero-to-mastery.md)
