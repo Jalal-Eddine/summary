@@ -10,7 +10,7 @@ el.addEventListener("click", submitForm);
 // callback pyramid of dom
 movePlayer(100, 'Left', function(){
     movePlayer(400, 'Left', function(){
-        movePlayer(40, 'Rught', function(){
+        movePlayer(40, 'Right', function(){
             movePlayer(330, 'Left', function() });
         });
     });
