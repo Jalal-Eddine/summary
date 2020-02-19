@@ -71,3 +71,27 @@ const getData = async function() {
 // it's important to give catch a parametre 'error'
 }
 ```
+### setState
+
+
+You can call a function after the state value has updated:
+```js
+this.setState({foo: 'bar'}, () => { 
+    // Do something here. 
+});
+```
+Also, if you have lots of states to update at once, group them all within the same setState:
+
+Instead of:
+```js
+this.setState({foo: "one"}, () => {
+    this.setState({bar: "two"});
+});
+```
+Just do this:
+```js
+this.setState({
+    foo: "one",
+    bar: "two"
+});
+
